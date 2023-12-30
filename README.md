@@ -2,7 +2,7 @@
 A Startup Agency Landing Page built with Next14, Shadcn, and Tailwind.
 
 # ☁️ Deployed link
-[https://travel-agency-landing-page-zeta.vercel.app/](https://startup-agency-landing-page.vercel.app/)
+https://startup-agency-landing-page.vercel.app/
 
 Youtube:  
 
