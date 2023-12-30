@@ -9,7 +9,7 @@ interface IProps {
 
 function TeamCard({ imageUrl, name, profession }: IProps) {
   return (
-    <div className="]">
+    <div>
       <div className="flex flex-col justify-center items-center border-[4px] border-[#EBEAED] rounded-t-[1rem] py-[3rem]">
         <div>
           <img
