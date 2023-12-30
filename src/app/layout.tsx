@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (   
     <html lang="en">
-      <body  className={ageo.className} >{children}</body>
+      <body  className={ageo.className}>{children}</body>
     </html>
   )
 }

@@ -42,7 +42,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
     ref
   ) => {
     const propWidth =
-      width === "full_width" ? "w-full" : width ? width : "w-[245px]";
+      width === "full_width" ? "w-full" : width ? width : "w-[7.4375rem]";
 
     const isSecondaryVariant = variant !== "primary";
 
@@ -60,7 +60,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       <Button
         form={form}
         className={`${
-          isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
+          isSecondaryVariant ? "text-normal text-white  bg-secondary" : "bg-primary"
         } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
         onClick={!disabled ? action : () => undefined}
         type={isSubmitable ? "submit" : "button"}
@@ -89,7 +89,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       </Button>
     ) : (
       <Button
-        className={`bg-primary text-white ${propWidth} md:${propWidth} select-none rounded-[0.625rem] cursor-not-allowed ${size_height} ${
+        className={`bg-primary  text-white ${propWidth} md:${propWidth} select-none rounded-[0.625rem] cursor-not-allowed ${size_height} ${
           classes ? classes : ""
         }`}
         ref={ref}
